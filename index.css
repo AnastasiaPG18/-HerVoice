@@ -66,15 +66,15 @@ img {
 }
 
 .circle {
-  width: 250px;
-  height: 250px;
+  width: 280px;
+  height: 280px;
   background-color: #970d9f;
   border-radius: 50%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 14px;
+  font-size: 18px;
   color: #ffffff;
   text-align: center;
   margin: 50px auto;
@@ -83,4 +83,8 @@ img {
 .grid {
   display: flex;
   justify-content: center;
+}
+
+.prologos {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
