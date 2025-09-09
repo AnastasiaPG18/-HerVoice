@@ -3,15 +3,17 @@ h1 {
 }
 
 html,
-.pt-5 {
-  background-color: #f1c2e29e;
-  height: 100%;
+.pt-5,
+body {
+  background-color: #f1c2e29e !important;
   margin: 0;
   padding: 0;
 }
 
 p {
-  font-size: 40px;
+  font-size: 18px;
+  margin: 0 40px;
+  padding: 20px;
 }
 
 .navbar .container-fluid {
@@ -23,7 +25,7 @@ p {
 }
 
 img {
-  height: 400px;
+  height: 500px;
   object-fit: cover;
 }
 
@@ -51,4 +53,29 @@ img {
 }
 .navbar .container-fluid .navbar-toggler {
   background-color: white;
+}
+.custom-carousel-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.circle {
+  width: 290px;
+  height: 290px;
+  background-color: #970d9f;
+  border-radius: 50%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  margin: 50px auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
