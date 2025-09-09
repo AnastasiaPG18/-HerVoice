@@ -2,10 +2,8 @@ h1 {
   color: rgb(221, 221, 16);
 }
 
-html,
-.pt-5 {
+html {
   background-color: #f1c2e29e;
-  height: 100%;
   margin: 0;
   padding: 0;
 }
