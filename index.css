@@ -1,10 +1,17 @@
 h1 {
-  color: rgb(221, 221, 16);
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(to right, #f00b51, #63134c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 html,
-.pt-5 {
+.pt-5,
+body {
   background-color: #f1c2e29e !important;
+  height: 100%;
   margin: 0;
   padding: 0;
 }
@@ -59,8 +66,8 @@ img {
 }
 
 .circle {
-  width: 290px;
-  height: 290px;
+  width: 250px;
+  height: 250px;
   background-color: #970d9f;
   border-radius: 50%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -76,5 +83,4 @@ img {
 .grid {
   display: flex;
   justify-content: center;
-  gap: 20px;
 }
