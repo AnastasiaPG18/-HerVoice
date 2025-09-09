@@ -84,3 +84,6 @@ img {
   display: flex;
   justify-content: center;
 }
+h5 {
+  font-weight: 500;
+}
