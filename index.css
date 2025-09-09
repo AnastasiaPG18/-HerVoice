@@ -3,8 +3,7 @@ h1 {
 }
 
 html,
-.pt-5,
-body {
+.pt-5 {
   background-color: #f1c2e29e !important;
   margin: 0;
   padding: 0;
