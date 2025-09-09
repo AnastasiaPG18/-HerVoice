@@ -1,0 +1,54 @@
+h1 {
+  color: rgb(221, 221, 16);
+}
+
+html,
+.pt-5 {
+  background-color: #f1c2e29e;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 40px;
+}
+
+.navbar .container-fluid {
+  background-color: black;
+}
+
+.no-padding-navbar {
+  padding: 0 !important;
+}
+
+img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.logo-img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+.navbar .nav-link {
+  color: white !important;
+}
+
+.navbar .dropdown-menu {
+  background-color: #343a40;
+}
+
+.navbar .dropdown-item {
+  color: white !important;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #495057;
+  color: white;
+}
+.navbar .container-fluid .navbar-toggler {
+  background-color: white;
+}
