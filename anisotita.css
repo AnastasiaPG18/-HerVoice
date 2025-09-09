@@ -1,0 +1,58 @@
+html {
+  background-color: #f1c2e29e;
+}
+h1 {
+  color: blueviolet;
+  font-weight: 500;
+  font-style: inherit;
+}
+p {
+  font-size: 30px;
+}
+
+html {
+  background-color: #f1c2e29e;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 40px;
+}
+
+.navbar .container-fluid {
+  background-color: black;
+}
+
+.no-padding-navbar {
+  padding: 0 !important;
+}
+
+.logo-img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+.navbar .nav-link {
+  color: white !important;
+}
+
+.navbar .dropdown-menu {
+  background-color: #343a40;
+}
+
+.navbar .dropdown-item {
+  color: white !important;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #495057;
+  color: white;
+}
+.navbar .container-fluid .navbar-toggler {
+  background-color: white;
+}
+h3 {
+  font-weight: 500;
+}
